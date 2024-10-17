@@ -1,0 +1,51 @@
+    html,
+    body {
+    margin: 0;
+    padding: 0;
+    }
+
+    body {
+    font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+    background-image: url("img/photo_2024-09-07_13-31-27.jpg"); 
+    background-size: cover; 
+    background-position: center;
+    background-blend-mode: multiply; 
+    background-color: rgba(0, 0, 0, 0.4);
+    line-height: 1.65;
+    padding-bottom: 1000px;
+    box-sizing: border-box;
+    display: grid;
+    padding: 5px; /*agar background berada ditengah*/
+    } 
+
+    .container-satu {
+    display: flex;
+    width: 1000px;
+    margin: 50px auto;
+    padding: 0px 30px;
+    gap: 30px;
+    }
+
+    .sidebar-satu {
+    order: -1;
+    }
+
+    .sidebar-satu h3 {
+    font-size: 20px;
+    }
+
+    .sidebar-dua {
+    flex: 1;
+    }
+
+    .kolom-satu {
+    flex: 4;
+    }
+
+    a {
+    text-decoration: underline;
+    color: purple;
+    font-size: 20px;
+    font-weight: bold;
+    }

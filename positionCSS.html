@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Position CSS</title>
+    <link rel="stylesheet" type="text/css" href="stylePosition.css">
+</head>
+<body>
+    <h2>Position static</h2>
+    <p>Position digunakan untuk mengatur elemen menjadi statis cara default.
+        elemen akan mengikuti posisi secara default. 
+        tidak dipengaruhi top, bottom, left, right.:</p>
+
+    <div class="static">
+        Elemen ini diatur dg posisi static;
+    </div>
+
+    <br><br><br>
+    <h2>position relative;</h2>
+    <p>sebuah elemen HTML yang disetting dengan position fixed akan punya sifat tetap
+        tanpa ada perubahan bahkan halaman web di scrool.
+        berlaku pengaturan left, bottom, top dan right pada position fixed:</p>
+    <div class="relative">
+        Elemen ini diatur menggunakan posisi: relative;
+    </div>
+
+    <br><br><br>
+    <h2>position fixed;</h2>
+    <p>sebuah elemen HTML yang disetting dengan position fixed akan punya sifat tetap
+        tanpa ada perubahan bahkan halaman web di scrool.
+        berlaku pengaturan left, bottom, top dan right pada position fixed:</p>
+    <div class="fixed">
+        Elemen ini diatur menggunakan posisi: fixed;
+    </div>
+
+    <br><br><br>
+    <h2>position absolute;</h2>
+    <p>Elemen HTML yang menggunakan position absolute akan diposisikan relatif dengan element lain yang mendahuluinya yang terdekat, 
+        bukan relatif terhadap layar secara normal:</p>
+    <div class="relative1">Elemen ini diatur menggunakan posisi: absolute;
+        <div class="absolute">Elemen ini diatur menggunakan posisi: absolute</div>
+    </div>
+
+    <br><br><br>
+    <h2>position sticky;</h2>
+    <p>Cobalah untuk <b>scroll</b> untuk mengetahui bagaiamana posisi sticky bekerja</p>
+    <p>Catatan: IE/Edge 15 dan versi yang lebih lama tidak mendukung sticky</p>
+
+    <div class="sticky">Hola aku adalah sticky!</div>
+        <div style="padding-bottom: 2000px">
+            <p>dalam contoh ini, elemen menempel pada posisi paling atas halaman saat mencapai scrollnya</p>
+        <p>cobalah untuk melakukan scroll</p>
+        <p>cobalah untuk melakukan scroll.. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Recusandae mollitia, quas veniam facere adipisci eaque porro odio ratione.
+            Eius omnis eligendi sint quo praesentium tempore maxime a, voluptate libero molestiae.</p>
+        <p>cobalah untuk melakukan scroll.. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+            Recusandae mollitia, quas veniam facere adipisci eaque porro odio ratione.
+            Eius omnis eligendi sint quo praesentium tempore maxime a, voluptate libero molestiae.</p>
+            <p>cobalah untuk melakukan scroll.. Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                Recusandae mollitia, quas veniam facere adipisci eaque porro odio ratione.
+                Eius omnis eligendi sint quo praesentium tempore maxime a, voluptate libero molestiae.</p>
+    </div>
+    </div>
+</body>
+</html>
